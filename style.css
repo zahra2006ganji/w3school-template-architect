@@ -1,0 +1,308 @@
+nav{
+    height: 65px;
+    font-family: 'san serif', 'verdana';
+    font-size: 15px;
+    display: flex; 
+    flex-flow: wrap row;
+    position: fixed;
+    width: 100%;
+    background-color: #ffff;
+    box-shadow:  9px 10px 9px rgba(0, 0, 0, 0.205);
+    justify-content: space-between;
+    z-index: 3 ;
+}
+#name{
+    justify-self: flex-start;
+    display: inline;
+    width: 180px;
+    margin: 15px 0px 0px 30px;
+}
+li{
+    display: inline;
+    letter-spacing: 5px;
+}
+ul
+{
+    float: right;
+    list-style: none;
+    width: 370px;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+footer{
+    height: 80px;
+    width: 100%;
+    font-family: sans-serif;
+    color: #ffff;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana,sans-serif;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+#webname{
+    padding-left: 15px;
+    display: inline;
+    letter-spacing: 4px;
+    /* padding-top: -8px; */
+}
+#mine{
+    margin-top: 20px;
+}
+#header-img{
+    height: 720px;
+    width: 100%;
+    z-index: 2 ;
+}
+#header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1 ;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    transform: translate(-50%,-50%);
+    color: white;
+    margin: 10px 0;
+    letter-spacing: 5px;
+    font-size: 36px;
+    text-align: center!important;
+}
+#logo2{
+    background-color: rgba(0, 0, 0, 0.973);
+    padding: 8px 16px!important;
+    opacity: 0.75;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+a:hover{
+    background-color: rgba(0, 0, 0, 0.267);
+}
+li{
+    width: 100%;
+}
+#Projects-txt {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 30px;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    font-size: 24px;
+
+}
+hr{
+    width: 95%;
+    opacity: 50%;
+}
+#pics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+   margin-left: 30px;
+    justify-content: space-between;  
+}
+.img{
+    width: 305px;
+    height: 203px;
+}
+.Summer{
+    width: 110px;   
+}
+.img-proj{
+    background-color: #000!important;
+    color: #ffff;
+    padding: 10px 20px!important;
+    transform: translateY(100%);
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    /* line-height: 1.5; */
+    width: 90px;
+    height: 22px;
+}
+.Projects-img{
+    margin-bottom: -25px;
+}
+#about-txt , #contact-txt{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 60px 30px 30px 30px;
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+    font-size: 24px;
+}
+#people{
+    display: flex;
+    margin-top: 500px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 95%;
+    margin: auto ;
+    align-items: center;
+    justify-content: space-between;  
+}
+.job {
+    opacity: 0.60;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.info{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    margin: 5px;
+    display: inline;   
+}
+.names{
+    font-family: Verdana,sans-serif;
+    font-size: 24px;   
+}
+.cont-person{
+    background-color: #f1f1f1!important;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 95%;
+    height: 44px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;   
+}
+#contact{
+    margin-top: -30px;
+    display: block;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+}
+.inp-contact{
+    border: 1px solid #ccc!important;
+    padding: 8px;
+    display: block;
+    width: 95%;
+    height: 22px;
+    margin: 20px auto;
+}
+.inp-contact::placeholder{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;    
+}
+#submit-form{
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    margin: 16px 0px 16px 30px ;
+    color: #fff!important;
+    background-color: #000!important;
+    text-align: center;
+    cursor: pointer;
+}
+#map{
+    margin: 20px 0px -10px 30px;
+    width: 95%;
+}
+
+@media (max-width: 500px) {
+    footer{
+        width: 110%;
+    }
+    ul{
+        display: none;}
+    span{
+        display: none;
+    }
+    #map{
+        margin: 20px 20px 3px 2%;
+        width: 100%;
+    }
+    #pics{
+        margin-left: 15px;
+    }
+    .inp-contact{
+        width: 90%;
+        margin-left: 15px;
+    }  
+    #submit-form{
+        width: 40%;
+        height: 35px;
+        font-size: 11px;
+        padding: 2px 0px 2px 2px ;
+        margin-left: 10px;
+    }  
+    #logo2{
+        transform: translateY(100%);
+        font-size: 20px;
+    }
+    h3{
+        margin-left: 15px; 
+    }
+    .people-img{
+        margin-bottom: 20px;
+        margin-left: 10%;
+    }
+    #header-img{
+        width: 110% !important;
+        height: 220px;}
+        
+    #people{
+        flex-wrap:wrap;}
+     .img , .img-proj{
+        margin-left: 17%;
+        }
+    
+ }
+ @media (min-width: 501px) and (max-width:600px){
+     footer{
+        min-width: 500px;
+        max-width: 600%;
+     }
+    ul{
+        display: none;}
+    span{
+       display: none;
+    }
+    #pics{
+        margin-left: 10px;
+        flex-wrap: nowrap;
+    }
+    #map{
+        margin: 20px 1% 3px 1%;
+        width: fit-content;
+    }
+    .inp-contact{
+        width: 90%;
+        margin-left: 10px;
+    }  
+    #submit-form{
+        width: 40%;
+        height: 35px;
+        font-size: 11px;
+        padding: 2px 0px 2px 2px ;
+        margin-left: 10px;
+    }  
+    #logo2{
+        transform: translateY(300px);
+        font-size: 30px;
+    }
+    h3{
+        margin-left: 15px; 
+    }
+    .people-img{
+        margin-bottom: 20px;
+        margin-left: 2%;
+    }
+    #header-img{
+        width: fit-content;
+        height: 520px;}
+        
+    #people{
+        flex-wrap: nowrap;
+        width: 50%;}
+     .img-proj{
+        margin-left: 10%;
+        }
+    
+ }

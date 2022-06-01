@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3.CSS Tamplate</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body style="margin: 0;">
+
+    <!-- navbar and header part -->
+    <header>
+        <nav id="navbar">
+           <a href="#" id="name"><b id="logo">B R</b><p id="webname">Architect</p></a>
+            <ul>
+                <li><a href="#Projects-txt">Projects</a></li>
+                <li><a href="#about-txt">About</a></li>
+                <li><a href="#contact-txt">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="./pics/architect.jpg" id="header-img"/>
+        <h1 id="header-text">
+            <b id="logo2">BR</b>
+            <span>Architect</span>
+        </h1>
+    </header>
+
+    <!-- imgs of Projects        -->
+    <h3 id="Projects-txt">Projects</h3>
+    <hr>
+    <div id="pics">
+        <div class="Projects-img">
+            <div class="img-proj" style="width: 120px;">Summer House</div>
+            <img  class="img" src="./pics/house5.jpg" alt="House" style="width:100%">
+        </div>
+        <div class="Projects-img">
+            <div class="img-proj">Brick House</div>
+            <img class="img" src="./pics/house2.jpg" alt="House" style="width:100%">
+        </div>
+        <div class="Projects-img">
+            <div class="img-proj">Renovated</div>
+            <img class="img" src="./pics/house3.jpg" alt="House" style="width:100%">
+        </div>
+        <div class="Projects-img">
+            <div class="img-proj">Barn House</div>
+            <img class="img" src="./pics/house4.jpg" alt="House" style="width:100%">
+        </div>
+        <div class="Projects-img">
+            <div class="img-proj" style="width: 120px; ">Summer House</div>
+            <img class="img" src="./pics/house2.jpg" alt="House" style="width:100%">
+        </div>
+        <div class="Projects-img">
+            <div class="img-proj">Brick House</div>
+            <img class="img" src="./pics/house5.jpg" alt="House" style="width:100%">
+        </div>
+        <div class="Projects-img">
+            <div class="img-proj">Renovated</div>
+            <img class="img"  src="./pics/house4.jpg" alt="House" style="width:100%">
+        </div>
+        <div class="Projects-img">
+            <div class="img-proj">Barn House</div>
+            <img class="img" src="./pics/house3.jpg" alt="House" style="width:100%">
+        </div>
+    </div>
+
+    <!-- about and people's pic -->
+    <h3 id="about-txt">About</h3>
+    <hr>
+    <p style="font-family: Verdana,sans-serif; font-size: 15px; width: 92%; margin-left:35px; margin-bottom: 50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div id="people">
+        <div class="people-img">
+            <img  class="img" class="people" src="./pics/team2.jpg" style=" filter: grayscale(80%);">
+            <P class="names">John Doe</P>
+            <p class="job" style="width: 120px;">CEO & Founder</p>
+            <p class="info" style="width: 120px;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button class="cont-person">Contact</button>
+        </div>
+        <div class="people-img">
+            <img  class="img" class="people" src="./pics/team1.jpg" style="filter: grayscale(80%); ">
+            <P class="names">Jane Doe</P>
+            <p class="job" style="width: 120px;">Architect</p>
+            <p class="info" style="width: 120px;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button class="cont-person">Contact</button>
+        </div>
+        <div class="people-img">
+            <img  class="img" class="people" src="./pics/team3.jpg" style="filter: grayscale(80%);  ">
+            <P class="names">Mike Ross</P>
+            <p class="job" style="width: 120px;">Architect</p>
+            <p class="info" style="width: 120px;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button class="cont-person">Contact</button>
+        </div>
+        <div class="people-img">
+            <img  class="img" class="people" src="./pics/team4.jpg" style="filter: grayscale(80%); ">
+            <P class="names">Dan Star</P>
+            <p class="job" style="width: 120px;">Architect</p>
+            <p class="info" style="width: 120px;">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+            <button class="cont-person">Contact</button>
+        </div>
+    </div>
+    <!-- Contact inputs -->
+    <h3 id="contact-txt">Contact</h3>
+    <hr>
+    <p style="font-family: Verdana,sans-serif; font-size: 15px; width: 92%; margin-left:35px; margin-bottom: 50px;">Lets get in touch and talk about your next project.</p>
+    <form id="contact">
+        <input type="text" class="inp-contact" placeholder="Name"/>
+        <input type="email" class="inp-contact" placeholder="Email"/>
+        <input type="text" class="inp-contact" placeholder="Subject"/>
+        <input type="text" class="inp-contact" placeholder="Comment"/>
+        <button type="submit" id="submit-form">SEND MESSAGE</button>
+    </form>
+    <!-- map picture -->
+    <img src="./pics/map.jpg" id="map"/>
+    <!-- footer part -->
+    <footer>
+        <p style="transform: translateY(150%);">Zahra Ganji &copy; 2022</p>
+    </footer>
+</body>
+</html>
